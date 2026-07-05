@@ -103,3 +103,7 @@ string Keypad.OldPhonePad(string input)
 ```
 
 It has no external dependencies, so it can be reused independently of the API or UI.
+
+## AI usage
+
+This project was built with AI assistance. The prompt/chat log is available here: [Gemini share link](https://share.gemini.google/KK0uvreQlYhR).
