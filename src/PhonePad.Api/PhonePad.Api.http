@@ -1,0 +1,6 @@
+@PhonePad.Api_HostAddress = http://localhost:5150
+
+GET {{PhonePad.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

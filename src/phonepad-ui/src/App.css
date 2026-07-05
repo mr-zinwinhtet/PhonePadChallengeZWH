@@ -1,0 +1,62 @@
+.phone-container {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #2a2a2a;
+  border-radius: 24px;
+  color: white;
+  font-family: monospace;
+}
+
+.screen {
+  background: #e0e0e0;
+  color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: right;
+  min-height: 60px;
+}
+
+.output-result {
+  font-size: 1.5em;
+  margin-top: 10px;
+  color: #000;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.key {
+  background: #444;
+  border: none;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.key:hover { background: #555; }
+.key:active { background: #777; }
+
+.primary { font-size: 1.5em; font-weight: bold; }
+.secondary { font-size: 0.6em; color: #aaa; }
+
+.clear-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

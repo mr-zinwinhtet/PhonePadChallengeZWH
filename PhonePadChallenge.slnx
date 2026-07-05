@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PhonePad.Api/PhonePad.Api.csproj" />
+    <Project Path="src/PhonePad/PhonePad.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PhonePad.Tests/PhonePad.Tests.csproj" />
+  </Folder>
+</Solution>
