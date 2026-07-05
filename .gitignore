@@ -10,6 +10,3 @@ obj/
 # Node (frontend build artifacts not covered by src/phonepad-ui/.gitignore)
 **/node_modules/
 **/dist/
-
-# Claude Code local settings
-.claude/
